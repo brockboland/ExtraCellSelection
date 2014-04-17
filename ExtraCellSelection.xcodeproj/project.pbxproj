@@ -18,8 +18,6 @@
 		4679945D18FF793E00C4487F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4679945C18FF793E00C4487F /* XCTest.framework */; };
 		4679945E18FF793E00C4487F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4679943D18FF793E00C4487F /* Foundation.framework */; };
 		4679945F18FF793E00C4487F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4679944118FF793E00C4487F /* UIKit.framework */; };
-		4679946718FF793E00C4487F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4679946518FF793E00C4487F /* InfoPlist.strings */; };
-		4679946918FF793E00C4487F /* ExtraCellSelectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4679946818FF793E00C4487F /* ExtraCellSelectionTests.m */; };
 		4679947418FF79A300C4487F /* LDLCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4679947318FF79A300C4487F /* LDLCollectionViewController.m */; };
 		4679947718FF7A2B00C4487F /* LDLTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4679947618FF7A2B00C4487F /* LDLTableView.m */; };
 		4679947A18FF7A9700C4487F /* LDLTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4679947918FF7A9700C4487F /* LDLTableViewCell.m */; };
@@ -51,9 +49,6 @@
 		4679945518FF793E00C4487F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4679945B18FF793E00C4487F /* ExtraCellSelectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExtraCellSelectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4679945C18FF793E00C4487F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4679946418FF793E00C4487F /* ExtraCellSelectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExtraCellSelectionTests-Info.plist"; sourceTree = "<group>"; };
-		4679946618FF793E00C4487F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4679946818FF793E00C4487F /* ExtraCellSelectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtraCellSelectionTests.m; sourceTree = "<group>"; };
 		4679947218FF79A300C4487F /* LDLCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDLCollectionViewController.h; sourceTree = "<group>"; };
 		4679947318FF79A300C4487F /* LDLCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDLCollectionViewController.m; sourceTree = "<group>"; };
 		4679947518FF7A2B00C4487F /* LDLTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDLTableView.h; sourceTree = "<group>"; };
@@ -92,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				4679944318FF793E00C4487F /* ExtraCellSelection */,
-				4679946218FF793E00C4487F /* ExtraCellSelectionTests */,
 				4679943C18FF793E00C4487F /* Frameworks */,
 				4679943B18FF793E00C4487F /* Products */,
 			);
@@ -145,24 +139,6 @@
 				4679944618FF793E00C4487F /* InfoPlist.strings */,
 				4679944918FF793E00C4487F /* main.m */,
 				4679944B18FF793E00C4487F /* ExtraCellSelection-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4679946218FF793E00C4487F /* ExtraCellSelectionTests */ = {
-			isa = PBXGroup;
-			children = (
-				4679946818FF793E00C4487F /* ExtraCellSelectionTests.m */,
-				4679946318FF793E00C4487F /* Supporting Files */,
-			);
-			path = ExtraCellSelectionTests;
-			sourceTree = "<group>";
-		};
-		4679946318FF793E00C4487F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4679946418FF793E00C4487F /* ExtraCellSelectionTests-Info.plist */,
-				4679946518FF793E00C4487F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -254,7 +230,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4679946718FF793E00C4487F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4679946918FF793E00C4487F /* ExtraCellSelectionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +281,6 @@
 				4679945018FF793E00C4487F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4679946518FF793E00C4487F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4679946618FF793E00C4487F /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
