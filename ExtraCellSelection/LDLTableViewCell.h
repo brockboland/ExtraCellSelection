@@ -1,5 +1,5 @@
 //
-//  LDLViewController.h
+//  LDLTableViewCell.h
 //  ExtraCellSelection
 //
 //  Created by Brock Boland on 4/16/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LDLViewController : UIViewController
+@interface LDLTableViewCell : UITableViewCell
 
 @end
