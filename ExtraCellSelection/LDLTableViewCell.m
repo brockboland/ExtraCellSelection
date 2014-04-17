@@ -23,4 +23,16 @@
   }
 }
 
+-(void)setHighlighted:(BOOL)highlighted animated:(BOOL)animated {
+  [super setHighlighted:highlighted animated:animated];
+
+  // NOTE: All cells are set to NOT highlighted on app launch. When the collection view cell is selected, this is called thrice: highlighted is YES, then NO, then YES again.
+  if (highlighted) {
+    NSLog(@"Setting table view cell highlighted. Label: %@", self.textLabel.text);
+  }
+  else {
+    NSLog(@"Setting table view cell UNhighlighted. Label: %@", self.textLabel.text);
+  }
+}
+
 @end
