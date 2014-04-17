@@ -10,9 +10,9 @@
 
 @implementation LDLCollectionViewCell
 
+// TODO: Set the status label
 -(void)awakeFromNib {
   self.statusLabel.text = @"Test";
 }
-
 
 @end

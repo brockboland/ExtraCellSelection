@@ -20,7 +20,6 @@
   return self;
 }
 
-
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
   return 6;
 }
@@ -34,6 +33,18 @@
 //  cell.selectionStyle = UITableViewCellSelectionStyleNone;
 
   return cell;
+}
+
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  // NOTE: This is never called when the cell is selected (by way of selected the collection view cell)
+  NSLog(@"Did select table view cell: %@", indexPath);
+}
+
+-(BOOL)tableView:(UITableView *)tableView shouldHighlightRowAtIndexPath:(NSIndexPath *)indexPath {
+  // NOTE: This is never called when the cell is selected (by way of selected the collection view cell)
+  NSLog(@"Should highlight table view cell: %@", indexPath);
+  return YES;
 }
 
 @end
