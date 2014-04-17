@@ -56,8 +56,8 @@
 		4679946818FF793E00C4487F /* ExtraCellSelectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtraCellSelectionTests.m; sourceTree = "<group>"; };
 		4679947218FF79A300C4487F /* LDLCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDLCollectionViewController.h; sourceTree = "<group>"; };
 		4679947318FF79A300C4487F /* LDLCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDLCollectionViewController.m; sourceTree = "<group>"; };
-		4679947518FF7A2B00C4487F /* LDLTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDLTableView.h; path = ../LDLTableView.h; sourceTree = "<group>"; };
-		4679947618FF7A2B00C4487F /* LDLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDLTableView.m; path = ../LDLTableView.m; sourceTree = "<group>"; };
+		4679947518FF7A2B00C4487F /* LDLTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDLTableView.h; sourceTree = "<group>"; };
+		4679947618FF7A2B00C4487F /* LDLTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDLTableView.m; sourceTree = "<group>"; };
 		4679947818FF7A9700C4487F /* LDLTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDLTableViewCell.h; sourceTree = "<group>"; };
 		4679947918FF7A9700C4487F /* LDLTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDLTableViewCell.m; sourceTree = "<group>"; };
 		4679947B18FF7C7900C4487F /* LDLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDLCollectionViewCell.h; sourceTree = "<group>"; };
@@ -475,6 +475,7 @@
 				4679946E18FF793E00C4487F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4679946F18FF793E00C4487F /* Build configuration list for PBXNativeTarget "ExtraCellSelectionTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +484,7 @@
 				4679947118FF793E00C4487F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
