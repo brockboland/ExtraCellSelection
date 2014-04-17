@@ -11,8 +11,16 @@
 
 @implementation LDLCollectionViewCell
 
-// TODO: Set the status label
 -(void)awakeFromNib {
+  // Set the collection cell identifier on the tableview to some random string, to make it easier to differentiate log messages from within the table
+  NSString *letters = @"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  NSMutableString *randomString = [NSMutableString stringWithCapacity: 4];
+  for (int i=0; i<4; i++) {
+    [randomString appendFormat: @"%C", [letters characterAtIndex: arc4random() % [letters length]]];
+  }
+  self.tableView.collectionCellIdentifier = randomString;
+
+
   [self refreshStatus];
 }
 

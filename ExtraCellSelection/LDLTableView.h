@@ -10,4 +10,6 @@
 
 @interface LDLTableView : UITableView <UITableViewDataSource, UITableViewDelegate>
 
+@property (nonatomic, strong) NSString *collectionCellIdentifier;
+
 @end

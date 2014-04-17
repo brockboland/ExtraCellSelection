@@ -27,7 +27,7 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
   UITableViewCell *cell = [self dequeueReusableCellWithIdentifier:@"TableCell"];
-  cell.textLabel.text = [NSString stringWithFormat:@"Row %@", @(indexPath.row)];
+  cell.textLabel.text = [NSString stringWithFormat:@"Row %@ in collection cell %@", @(indexPath.row), self.collectionCellIdentifier];
 
   // NOTE: this will mask the problem by removing the highlight styling
 //  cell.selectionStyle = UITableViewCellSelectionStyleNone;
